@@ -1,0 +1,33 @@
+name: ProRec
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - ipykernel
+  - torchmetrics
+  - scikit-learn
+  - hydra-core
+  - omegaconf
+  - scikit-image
+  - pillow
+  - monai
+  - pydicom
+  - simpleitk
+  - itk
+  - libstdcxx-ng
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch>=2.7.0
+      - torchvision
+      - ray[air]
+      - wandb  
+      - torchdiffeq
+      - nilabels
+      - pyrefly
+      - monai-generative
+      

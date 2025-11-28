@@ -1,0 +1,22 @@
+name: ddpmEval
+
+
+checkpointDir: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/checkpoints/DDPM-1000"
+
+bestCheckpoint: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/checkpoints/DDPM-1000/checkpoint_2025-11-16_23-10-29.028299/checkpoint_290.pt"
+
+#image save dir Set up
+imageSave: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/outputImages/DDPMBase"
+
+
+#Change I think 
+validationPicker: 
+  steps: 1000
+
+
+
+solver: 
+  steps: 1000
+
+
+

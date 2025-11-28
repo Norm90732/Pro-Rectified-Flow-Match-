@@ -1,0 +1,12 @@
+name: ddpm
+
+
+
+optimizer:
+  lr: 2e-4
+  betas: [0.9, 0.999]
+  weight_decay: 0.01
+  eps: 1e-8
+
+epochs: 300
+ema: 0.9999

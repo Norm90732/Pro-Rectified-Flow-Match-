@@ -1,0 +1,39 @@
+defaults:
+  - model: recflow
+  - evaluation: interpolationEval
+  - data: ProstateMRI 
+  - _self_
+
+
+#Global
+projectName: "Prostate-Rectified-Flow"
+experimentName: "DDPM-1000"
+seed: 20
+
+#Logging
+wandb:
+  enabled: true
+  project: "Prostate-Rectified-Flow"
+  save_checkpoints: false
+  
+paths: 
+  datadir: 
+  outputDir: "./outputs"
+  checkpointDir: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/checkpoints"
+
+
+#Ray Processing
+batchSize: 64 #total
+preFetch: 4
+numDataWorkers: 6
+numCpus: 20
+numWorkers: 1
+resources_per_worker:
+  CPU: 18
+  GPU: 1
+
+
+checkpoint:
+  num_to_keep: 10
+  checkpoint_score_attribute: "validationLoss"
+  checkpoint_score_order: min

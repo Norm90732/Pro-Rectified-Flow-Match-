@@ -1,0 +1,17 @@
+name: ProstateMRi
+
+prostateMRI: "/blue/uf-dsi/normansmith/projects/Pro-Rectified-Flow-Match-/data/Prostate-MRI-US-Biopsy/manifest-1694710246744/Prostate-MRI-US-Biopsy"
+
+metaData: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/data/Prostate-MRI-US-Biopsy/manifest-1694710246744/metadata.csv"
+
+
+trainingValidationTest: 0.2 #80/20
+
+trainingValidation: .10
+
+persistentDataDir:
+  trainingDir: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/data/PersistentData/training"
+  validationDir: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/data/PersistentData/validation"
+  testingDir: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/data/PersistentData/testing"
+
+

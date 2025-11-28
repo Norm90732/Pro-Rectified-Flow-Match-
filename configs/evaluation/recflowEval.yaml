@@ -1,0 +1,25 @@
+name: recflowEval
+
+
+checkpointDir: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/checkpoints/Rectifed-Base"
+
+bestCheckpoint: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/checkpoints/Rectifed-Base/checkpoint_2025-11-15_05-37-10.387026/checkpoint_120.pt"
+
+#image save dir Set up
+imageSave: "/home/normansmith/blue_storage/projects/Pro-Rectified-Flow-Match-/outputImages/RecFlowBase"
+
+
+
+validationPicker: 
+  steps: 20
+  solver: "euler"
+
+
+#abalate 
+solver: 
+  steps: 1
+  type: "rk4"
+
+
+
+  #add other solvers to the solver 
