@@ -90,4 +90,4 @@ Evaluated on 1,151 clinical patients
   </tbody>
 </table>
 
-*Quantitative comparison on 11,475 test images from 201 patients. **Bold** = best result, <u>underline</u> = second best. Our method achieves highest PSNR (39.01 dB) and lowest LPIPS (0.067) while maintaining real-time inference speed.*
+*Quantitative comparison on 11,475 test images from 201 patients. **Bold** = best result. Our method achieves highest PSNR (39.01 dB) and lowest LPIPS (0.067) while maintaining real-time inference speed.*
