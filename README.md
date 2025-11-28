@@ -1,6 +1,7 @@
 # Pro-Rectified-Flow-Match-
 
 Fast high-fidelity MRI super-resolution using Rectified Flow.
+Final project for EEL6935
 
 ## Highlights
 **630× faster** than standard diffusion models
