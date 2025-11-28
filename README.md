@@ -4,8 +4,11 @@ Fast high-fidelity MRI super-resolution using Rectified Flow.
 
 ## Highlights
 **630× faster** than standard diffusion models
+
 **31× faster** than DDIM samplers
+
 **39.01 dB PSNR** on 11,475 test samples
+
 Evaluated on 1,151 clinical patients
 
 
